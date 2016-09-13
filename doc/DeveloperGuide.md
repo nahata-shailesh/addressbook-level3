@@ -6,7 +6,7 @@
 * [Appendix A: User Stories](#appendix-a--user-stories)
 * [Appendix B: Use Cases](#appendix-b--use-cases)
 * [Appendix C: Non Functional Requirements](#appendix-c--non-functional-requirements)
-* [Appendix D: Gloassary](#appendix-d--glossary)
+* [Appendix D: Glossary](#appendix-d--glossary)
 
 ## Setting up
 
@@ -45,9 +45,13 @@ Priority | As a ... | I want to ... | So that I can...
 `* * *` | user | add a new person |
 `* * *` | user | delete a person | remove entries that I no longer need
 `* * *` | user | find a person by name | locate details of persons without having to go through the entire list
+`* * *` | user | edit a person's details | update the details of a particular person whenever it changes
+`* * *` | user | view my entire address book | view the list of contacts I have
 `* *` | user | hide [private contact details](#private-contact-detail) by default | minimize chance of someone else seeing them by accident
+`* *` | user | make groups within the address book | locate people easily by the group they are assigned to
 `*` | user with many persons in the address book | sort persons by name | locate a person easily
-
+`*` | user with many persons in the address book | import contacts | add contacts to my address book from any external directory
+`*` | user with many persons in the address book | export contacts | add contacts to my preferred directory from my address book
 
 ## Appendix B : Use Cases
 
